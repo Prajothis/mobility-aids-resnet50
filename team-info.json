@@ -1,0 +1,11 @@
+{
+  "team_name": "Your Team Name",
+  "project_title": "Mobility Aids Detection with ResNet-50",
+  "members": [
+    {
+      "name": "Your Full Name",
+      "email": "your.email@university.edu",
+      "github_username": "Prajothis"
+    }
+  ]
+}
