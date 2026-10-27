@@ -15,8 +15,11 @@
       "id_number": "K12517527"
     },
     {
-      "name": "Ingo Wietzke",
-      "id_number": "K51822097"
+      "student_id": "k51822097",
+      "first_name": "Ingo",
+      "last_name": "Wietzke",
+      "email": "k51822097@students.jku.at",
+      "github_user": "ingowie"
     }
   ]
 }
