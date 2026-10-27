@@ -7,8 +7,11 @@
       "id_number": "K12538726"
     },
     {
-      "name": "Gizem Altindag",
-      "id_number": "K12545103"
+      "student_id": "K12545103",
+      "first_name": "Gizem",
+      "last_name": "Altindag,
+      "email": gizemoezkurt@hotmail.de,
+      "github_user": gizem0811
     },
     {
       "name": "Aldo Vincent",
