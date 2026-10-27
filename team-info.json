@@ -4,7 +4,7 @@
   "members": [
     {
       "name": "Prajothis Prajothis",
-      "id_number": "K12538726"
+      "id_number": "K12538726",
     },
     {
       "student_id": "K12545103",
@@ -14,8 +14,11 @@
       "github_user": "gizem0811"
     },
     {
-      "name": "Aldo Vincent",
-      "id_number": "K12517527"
+      "student_id": "K12517527",
+      "first_name": "Aldo",
+      "last_name": "Vincent",
+      "email": "aldovincent23@mail.com",
+      "github_user": "aldovincent"
     },
     {
       "student_id": "k51822097",
