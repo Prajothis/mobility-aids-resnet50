@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "task_name": "Data Download and Preprocessing",
+      "assigned_to": ["Your Full Name"],
+      "status": "In Progress"
+    },
+    {
+      "task_name": "Model Architecture & ResNet Backbone",
+      "assigned_to": ["Your Full Name"],
+      "status": "Not Started"
+    },
+    {
+      "task_name": "Training Pipeline & Evaluation",
+      "assigned_to": ["Your Full Name"],
+      "status": "Not Started"
+    }
+  ]
+}
