@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Original dataset
+/Annotations_RGB/
+/Images_RGB/
