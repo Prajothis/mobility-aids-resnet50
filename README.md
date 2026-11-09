@@ -117,3 +117,18 @@ model.eval()
 The model is now ready for inference.
 
 **Training Approach:** The goal was to establish a reasonable baseline model rather than achieve optimal classification performance. Training therefore focused on fine-tuning a pretrained ResNet-18 with limited optimisation. The resulting model serves as the basis for the Phase I investigation of its predictions, errors and behaviour.
+
+## Loading the Test Dataset and Applying ImageNet Preprocessing
+```python
+from src import MobilityAidDataset
+from src import eval_transform
+
+import pandas as pd
+from torch.utils.data import DataLoader
+
+test_df = pd.read_csv("data/test.csv")
+test_dataset = MobilityAidDataset(test_df, transform=eval_transform)
+
+test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False, num_workers=0)
+
+```
