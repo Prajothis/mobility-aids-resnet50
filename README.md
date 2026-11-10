@@ -132,3 +132,29 @@ test_dataset = MobilityAidDataset(test_df, transform=eval_transform)
 test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False, num_workers=0)
 
 ```
+
+### Robustness Analysis
+
+The AI-assisted work for model evaluation and robustness testing is
+documented in `ai-interactions/03_phase1_robustness_analysis_k12545103.md`.
+
+The robustness of the model was tested by using three different perturbations:
+
+- Increased brightness
+- Gaussian noise
+- Gaussian blur
+
+For each test image, the original version and also three perturbed versions were evaluated. The original images are the reference condition. 
+
+To reproduce the evaluation and robustness test, ensure that the
+following files and folders are available:
+
+- `data/test.csv`
+- `models/best_resnet18.pth`
+- `Images_RGB/`
+- `Annotations_RGB/`
+- `src/`
+
+Run the notebook cells from top to bottom. 
+
+
