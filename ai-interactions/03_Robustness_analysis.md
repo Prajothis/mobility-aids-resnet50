@@ -73,7 +73,7 @@ and interpret the relative effect of each perturbation.
 
 ## 4. Implementation and Decisions
 
-The suggested analyses were implemented in the evaluation ´02_image_perturbation´ notebook.
+The suggested analyses were implemented in the evaluation ´03_phase1_robustness_analysis_k12545103´ notebook.
 
 The main steps included:
 
