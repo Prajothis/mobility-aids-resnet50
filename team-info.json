@@ -3,8 +3,11 @@
   "project_title": "Mobility Aids Detection with ResNet-18",
   "members": [
     {
-      "name": "Prajothis Prajothis",
-      "id_number": "K12538726",
+      "student_id": "K12538726",
+      "first_name": "Prajothis",
+      "last_name": "Prajothis",
+      "email": "prajothis@gmail.com",
+      "github_user": "prajothis"
     },
     {
       "student_id": "K12545103",
