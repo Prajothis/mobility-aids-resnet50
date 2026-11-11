@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-Freiburg_Mobility_Aids-green.svg)](http://mobility-aids.informatik.uni-freiburg.de/)
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains the fine-tuning, robustness evaluation, and diagnostic error analysis for a **ResNet-18** binary image classifier trained to identify mobility aids using the **Freiburg Mobility Aids Dataset**.
 
@@ -24,7 +24,7 @@ This repository contains the fine-tuning, robustness evaluation, and diagnostic 
 
 ---
 
-## 🛠️ Dataset Setup
+## Dataset Setup
 
 ### Dataset Source
 This project uses the **Freiburg Mobility Aids Dataset** (17,079 RGB images and 15,278 YAML annotations).
@@ -47,7 +47,7 @@ Mobility-Aid-Classification/
 
 ---
 
-## 🚀 Quick Start: Model Evaluation
+##  Quick Start: Model Evaluation
 
 ### 1. Load Trained Checkpoint
 
@@ -82,7 +82,7 @@ test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
 ---
 
-## 🔬 Analysis Breakdown
+## Analysis Breakdown
 
 This evaluation was split into two analytical tracks:
 
@@ -92,7 +92,7 @@ This evaluation was split into two analytical tracks:
 
 ### 2. Human-Pair Diagnostic Analysis
 * Deep-dive into structural failure modes:
-  * **Temporal Tracking:** Sequential frame prediction path analysis revealing error clustering in video sequences (`[14–58]` & `[90–115]`).
+
   * **Spatial Sensitivity:** ROI Cropping (restored Class 0 accuracy to 99.9%) and Dual-Mode Masking (Foreground vs. Background).
   * **Full Dataset Color Inversion:** Scaled $N=1,952$ chromatic perturbation showing 1,091 prediction shifts and confirming shortcut learning.
 
