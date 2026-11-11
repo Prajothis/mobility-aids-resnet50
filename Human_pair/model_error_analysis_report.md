@@ -1,4 +1,7 @@
 # Technical Report: Model Error Analysis & Robustness Evaluation
+Human Aided Pair
+K12538726
+K12517527
 
 ## Mobility Aid Identification via Fine-Tuned ResNet-18
 
