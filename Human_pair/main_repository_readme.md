@@ -14,7 +14,7 @@ This repository contains the fine-tuning, robustness evaluation, and diagnostic 
 
 ---
 
-## 📊 Summary of Key Results
+## Summary of Key Results
 
 | Condition / Experiment | Overall Accuracy | Class 0 Recall | Class 1 Recall | Primary Observation |
 | :--- | :---: | :---: | :---: | :--- |
