@@ -1,7 +1,12 @@
-# Technical Report: Model Error Analysis & Robustness Evaluation
-Human Aided Pair
-K12538726
-K12517527
+Technical Report: Model Error Analysis & Robustness Evaluation
+
+Project Team: Human-Aided Pair
+
+Authors: Student ID K12538726 | Student ID K12517527
+
+Model Architecture: Fine-Tuned ResNet-18
+
+Dataset: Mobility Aid Identification Dataset (Images_RGB)
 
 ## Mobility Aid Identification via Fine-Tuned ResNet-18
 
