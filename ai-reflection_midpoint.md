@@ -1,8 +1,8 @@
 # AI Reflection – Phase I
 
 **AI-aided pair:**
-- Ingo Wietzke - K51822097
-- Gizem Altindag - K12545103
+- Ingo Wietzke – K51822097
+- Gizem Altindag – K12545103
 
 ### Benefits
 
@@ -20,11 +20,24 @@ Another challenge was that GenAI sometimes tended to follow a particular directi
 
 This made it important to actively question the generated solutions, understand the underlying code and maintain control over the analytical direction rather than simply accepting the suggested implementation.
 
-### Main Learnings
-For future projects, I think GenAI can be particularly useful for gathering initial ideas, providing basic starting points and accelerating the development of our own thoughts. It helps bring ideas to life much faster and makes it easier to explore different directions without having to implement everything from scratch.
+### Comparison of Working Approaches
 
-I would describe this using the 80/20 rule: through a few prompts, you can often achieve the first 80% of a task relatively quickly. You get something working, see initial results and develop a much better understanding of the possibilities.
+Comparing our AI-assisted approach with the human-only approach also revealed an interesting difference.
+
+With GenAI, it was very easy to explore several different directions at once. Since ideas, code and visualizations could be generated quickly, we often found ourselves investigating multiple aspects of the model.
+
+The human-only approach seemed more focused on specific questions and findings. Instead of exploring as many different directions, they went deeper into particular observations, such as the influence of background information and image colours on the model's predictions.
+
+This made us realize that having many possibilities available is not always an advantage. AI can help explore a wide range of ideas, but it can also make it tempting to move from one idea to another without investigating each one in enough depth.
+
+### Main Learnings
+
+For future projects, we think GenAI can be particularly useful for gathering initial ideas, providing basic starting points and accelerating the development of our own thoughts. It helps bring ideas to life much faster and makes it easier to explore different directions without having to implement everything from scratch.
+
+We would describe this using the 80/20 rule: through a few prompts, you can often achieve the first 80% of a task relatively quickly. You get something working, see initial results and develop a much better understanding of the possibilities.
 
 However, getting the remaining 20% right – making the implementation work exactly as intended, understanding the underlying code, debugging problems and refining the details – can easily require 80% of the actual effort.
 
-This is why I see GenAI primarily as a tool to accelerate the initial development and support my own ideas, rather than something that should take over the entire process. The key is to use the speed it provides without losing control or understanding of the work.
+Another important lesson was that exploring many directions does not necessarily mean gaining a deeper understanding. In future projects, we would try to use AI to explore initial ideas while making a more conscious effort to select a few promising directions and investigate them in greater depth.
+
+This is why we see GenAI primarily as a tool to accelerate the initial development and support our own ideas, rather than something that should take over the entire process. The key is to use the speed it provides without losing control, focus or understanding of the work.
