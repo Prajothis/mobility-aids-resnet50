@@ -53,9 +53,14 @@ The folder names must match exactly because the data preparation notebook expect
 
 **Note:** `Images_RGB/` and `Annotations_RGB/` are excluded from Git through `.gitignore`. They remain available locally but are not uploaded to GitHub.
 
+
+# Model Fine-Tuning
+
 ## Starting Phase I: Loading the Trained Model
 
-The model is trained in `01_data_preparation_and_training.ipynb`.
+The AI-assisted work for data preparation and model fine-tuning is documented in:
+
+`ai-interactions/01_data_preparation_and_training_k51822097.ipynb`
 
 After training, the best ResNet-18 checkpoint is saved to:
 
@@ -132,6 +137,17 @@ test_dataset = MobilityAidDataset(test_df, transform=eval_transform)
 test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False, num_workers=0)
 
 ```
+
+# AI-assisted analysis
+
+### Error Analysis
+
+The AI-assisted work for error analysis is documented in:
+
+`ai-interactions/02_phase1_error_analysis_k51822097.ipynb`
+
+The error analysis focused on understanding where the model makes mistakes and identifying possible patterns or factors that could explain them.
+
 
 ### Robustness Analysis
 
