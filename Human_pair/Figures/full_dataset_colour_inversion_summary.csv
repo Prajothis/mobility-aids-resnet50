@@ -1,0 +1,10 @@
+Metric,Value
+Total test images,1952.0
+Original accuracy,0.9538934426229508
+Inverted accuracy,0.4574795081967213
+Predictions changed,1091.0
+Predictions unchanged,861.0
+Correct before inversion,1862.0
+Correct after inversion,893.0
+"Previously incorrect, now correct",61.0
+"Previously correct, now incorrect",1030.0
