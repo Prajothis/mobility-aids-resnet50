@@ -2,8 +2,6 @@
 
 ## Mobility Aid Identification via Fine-Tuned ResNet-18
 
-## 📌 Executive Summary
-
 This report presents a thorough classification error analysis and out-of-distribution (OOD) robustness evaluation for a fine-tuned **ResNet-18** model trained on the **Mobility Aid Identification** dataset (`Images_RGB`).
 
 While the baseline model achieves a high top-line accuracy of **95.39%** across **1,952 test images**, in-depth error diagnosis reveals a critical vulnerability due to severe class imbalance. Specifically, **Class 0 (No Mobility Aid)** exhibits an unacceptable baseline recall of **0.51**, compared to **0.98** for **Class 1 (Mobility Aid)**.
@@ -12,7 +10,7 @@ To investigate whether the network relies on invariant geometric features or chr
 
 Under full-dataset color inversion, overall accuracy collapsed by **49.64 percentage points to 45.75%**, proving that the baseline model suffers heavily from **shortcut learning via chromatic priors**.
 
-## 🛠️ Experimental Methodology & Pipeline
+## Experimental Methodology & Pipeline
 
 To evaluate feature reliance, spatial sensitivity, and color channel dependency, we executed a 4-stage analytical workflow:
 
@@ -41,7 +39,7 @@ To evaluate feature reliance, spatial sensitivity, and color channel dependency,
 
 4. **Full-Dataset Inversion Experiment:** Scaled color inversion across all 1,952 test images to quantify statistical robustness, recall shifts, and prediction stability.
 
-## 📊 Baseline Model Performance
+## Baseline Model Performance
 
 Evaluated on the standard 1,952-image test split:
 
@@ -65,7 +63,7 @@ weighted avg       0.95      0.95      0.95      1952
 
 ```
 
-## 🔍 Diagnostic Error & Confusion Matrix Analysis
+##  Diagnostic Error & Confusion Matrix Analysis
 
 ### 1. Bounding Box Cropping & Masking Insights
 
@@ -110,7 +108,7 @@ Below is the exact empirical breakdown extracted from the comparative confusion 
 4. **Conclusion on Feature Shortcuts:**
    The massive shift of **1,059 Class 1 images being misclassified as Class 0** under inverted color space confirms that the ResNet-18 baseline relies on chromatic distribution and brightness levels as strong classification priors rather than robust visual geometry.
 
-## 🗺️ Phase 2 Improvement Roadmap
+##  Phase 2 Improvement Roadmap
 
 To eliminate chromatic bias, resolve the Class 0 recall deficit, and enforce true geometric feature extraction, Phase 2 training will execute the following mitigations:
 
@@ -130,4 +128,3 @@ To eliminate chromatic bias, resolve the Class 0 recall deficit, and enforce tru
 
   * Explore adding a **Convolutional Block Attention Module (CBAM)** or transitioning to a Vision Transformer (ViT) backbone to improve focus on foreground object boundaries over ambient background context.
 
-*Report generated for GitHub repository documentation — Phase 1 Project Evaluation.*
